@@ -1,6 +1,6 @@
 # Service
 
-The project shows a demostration on 
+The project provides CRUD restful API example to show that how a backend server implements product management.
 
 # App
 
@@ -14,42 +14,8 @@ To compile and run tests:
 ```
 sbt compile test
 ```
+* latest test coverage: 96%
 
-# Run
-
-## Development
-
-This project uses [sbt-revolver](https://github.com/spray/sbt-revolver) to spin up a development instance quickly.
-
-From an SBT console:
-
-```
-~re-start
-```
-
-This will run your application in a forked JVM, reloading it whenever files change locally.
-
-## Regenerate project site
-
-This project use [sbt-microsites](https://47deg.github.io/sbt-microsites/) to generate a project website.
-
-The site's root directory is in the `<project root directory>/src/main/tut`.
-
-From an SBT console:
-
-```
-sbt clean makeMicrosite
-```
-
-Then go to `<project root directory>/target/site`, then:
-
-```
-jekyll server
-```
-
-to publish the project website locally.
-
-**You need to install Jekyll first!**
 
 ## Elsewhere
 
